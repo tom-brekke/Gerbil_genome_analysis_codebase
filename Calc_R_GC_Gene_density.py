@@ -9,7 +9,7 @@ This is a more general script that get_R_GC_Gene_density_of_SFs.py. It should wo
 This script goes through a genome, gff file, and genetic map for a species and
 calculates the gene density, recombination rate, and gc content for each window specified by -w. 
 
-The map needs the following columns in this order. A header line is necessary, but the what each column is named doesn't matter:
+The map needs the following columns in this order. A header line is necessary, but what each column is named doesn't matter:
 SnpID, chr, base_pos, female_cM, male_cM, ave_cM
 Only 'female_cM' will be used to calculate the recombintaion rate (so as to include X chrs)
 
