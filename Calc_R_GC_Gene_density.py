@@ -5,7 +5,7 @@
 ##########################################################################################
 desc='''
 Written by TDB on 12 February 2021
-This is a more general script that get_R_GC_Gene_density_of_SFs.py. It should work for any genome with a GFF and map.
+This is a more general script than get_R_GC_Gene_density_of_SFs.py. It should work for any genome with a GFF and map.
 This script goes through a genome, gff file, and genetic map for a species and
 calculates the gene density, recombination rate, and gc content for each window specified by -w. 
 
@@ -56,7 +56,7 @@ def process_command_line():
 def read_in_gff(GFF_FH):
 	'''
 	This takes the GFF file and creates a dictionary of dictionaries called gff_dict 
-	that has ECRid as the outer key and then start: end as the inner dictionary. 
+	that has ECRid (i.e.: Chromosome name) as the outer key and then start: end as the inner dictionary. 
 	i.e.: {ECRid: {start: end}} 
 	input:   the GFF file handle
 	output:  updates the global gff_dict dictionary
