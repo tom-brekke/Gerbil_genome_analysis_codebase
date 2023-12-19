@@ -15,7 +15,6 @@ Should rip through the output of Nessie and make the pseudo-fasta format into a 
 ##########################################################################################
 import argparse
 import sys
-import pprint
 import re
 
 ##########################################################################################
